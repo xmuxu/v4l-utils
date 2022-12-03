@@ -44,9 +44,6 @@ struct media_options media_opts = {
 
 static void print_version()
 {
-#define STR(x) #x
-#define STRING(x) STR(x)
-	printf("media-ctl %s%s\n", PACKAGE_VERSION, STRING(GIT_COMMIT_CNT));
 }
 
 static void usage(const char *argv0)

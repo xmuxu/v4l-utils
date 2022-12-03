@@ -294,9 +294,6 @@ static void usage_all()
 
 static void print_version()
 {
-#define STR(x) #x
-#define STRING(x) STR(x)
-	printf("v4l2-ctl %s%s\n", PACKAGE_VERSION, STRING(GIT_COMMIT_CNT));
 }
 
 int test_ioctl(int fd, unsigned long cmd, void *arg)
